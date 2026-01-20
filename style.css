@@ -5,3 +5,7 @@
     background-position: center; 
     background-repeat: no-repeat;
 }
+.navbar {
+    width: 100%;
+    z-index: 1000;
+}
