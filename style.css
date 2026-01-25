@@ -24,6 +24,7 @@
 }
 .hero_p{
     position: absolute;
+    top: 320px;
     width: 606px;
      font-family: "Montserrat", sans-serif;
      font-weight: 400;
