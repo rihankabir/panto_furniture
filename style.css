@@ -38,10 +38,8 @@
     top: 10px;
     width:304px !important;
     color: aliceblue !important;
-    
-
 }
-/* Placeholder color white */
+
 #searchInput::placeholder {
   color: #fff;
   opacity: 1; /* important for Firefox */
