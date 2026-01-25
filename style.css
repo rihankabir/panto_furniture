@@ -1,13 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .hero{
+    display: flex;
     height: 100vh;
     background: url('images/hero.png');
      background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
 }
 .navbar {
     width: 100%;
     z-index: 1000;
+}
+.hero_text{
+     font-family: "Montserrat", sans-serif;
+     font-size: 80px;
+     font-weight: 400;
+    position: absolute;
+    top: 40px;
+    color: #FFFFFF;
 }
