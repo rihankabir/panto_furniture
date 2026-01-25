@@ -33,9 +33,37 @@
     color: #FFFFFF;
 }
 .input-group{
-    border-radius: 62px !important;
+    
     position: absolute;
-    top: 20px;
+    top: 10px;
     width:304px !important;
+    color: aliceblue !important;
+    
 
+}
+.form-control{
+
+}
+
+/* Placeholder color white */
+#searchInput::placeholder {
+  color: #fff;
+  opacity: 1; /* important for Firefox */
+}
+
+/* Optional: when input is focused */
+#searchInput:focus::placeholder {
+  opacity: 0.7;
+}
+.search-icon {
+  background-color: orange !important;
+  color: #fff;
+  border-radius: 50% !important;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+   /* spacing from input */
 }
