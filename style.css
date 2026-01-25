@@ -31,3 +31,9 @@
      font-size: 24px;
     color: #FFFFFF;
 }
+.input-group{
+    position: absolute;
+    top: 120px;
+    width:304px !important;
+
+}
