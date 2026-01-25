@@ -22,3 +22,11 @@
     top: 135px;
     color: #FFFFFF;
 }
+.hero_p{
+    position: absolute;
+    width: 606px;
+     font-family: "Montserrat", sans-serif;
+     font-weight: 400;
+     font-size: 24px;
+    color: #FFFFFF;
+}
