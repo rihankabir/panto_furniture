@@ -70,6 +70,14 @@
   border: none;
    /* spacing from input */
 }
+.cart-count{
+    position: absolute;
+   
+    color: orange;
+}
+
+
+
 @media (max-width: 576px) { 
     .hero_text{
         font-size:27px;
