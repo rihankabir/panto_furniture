@@ -99,12 +99,28 @@
   }
   @media (min-width: 992px) { 
      .hero_text{
-        margin-top:53px;
-        font-size: 57px;
+        margin-top:15px;
+        font-size: 80px;
     }
      .hero_p{
-        width: 46%;
-        font-size: 17px;
+        width: 44%;
+        margin-bottom: 20px;
+        font-size: 21px;
         top: 302px;
+    }
+     .input-group{
+        top:7px;
+    }
+   }
+ 
+   @media (min-width: 1400px) { 
+      .hero_text{
+        
+        font-size: 80px;
+    }
+     .hero_p{
+        width: 41%;
+        font-size: 22px;
+        top: 372px;
     }
    }
