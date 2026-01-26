@@ -70,3 +70,41 @@
   border: none;
    /* spacing from input */
 }
+@media (max-width: 576px) { 
+    .hero_text{
+        font-size:27px;
+        margin-bottom: 10px !important;
+    }
+    .hero_p{
+        width: 100%;
+        font-size: 14px;
+        top: 227px;
+    }
+    .input-group{
+        top:-28px;
+    }
+ }
+ @media (min-width: 768px) { 
+    .hero_text{
+        font-size: 54px;
+    }
+    .hero_p{
+        width: 46%;
+        font-size: 14px;
+        top: 227px;
+    }
+    .input-group{
+        top:-28px;
+    }
+  }
+  @media (min-width: 992px) { 
+     .hero_text{
+        margin-top:53px;
+        font-size: 57px;
+    }
+     .hero_p{
+        width: 46%;
+        font-size: 17px;
+        top: 302px;
+    }
+   }
