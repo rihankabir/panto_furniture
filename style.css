@@ -76,6 +76,8 @@
     color: orange;
 }
 .two{
+    justify-content: center;
+    align-items: center;
     padding-top:80px;
     padding-bottom:80px;
 }
@@ -83,10 +85,25 @@
      font-family: "Montserrat", sans-serif;
      font-style: bold;
      font-weight: 600;
-    font-size: 40px;
+     width: 242px;
+    font-size: 35px;
     color: #1E1E1E;
 }
+.text_two{
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: #1E1E1E;
 
+}
+.text_three{
+     font-family: "Montserrat", sans-serif;
+     font-size: 16px;
+     color: #1E1E1E;
+}
+.button{
+    text-decoration: none;
+    color: #E58411;
+}
 
 
 
