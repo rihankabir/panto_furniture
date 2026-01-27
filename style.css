@@ -134,6 +134,12 @@
     .input-group{
         top:-28px;
     }
+    .text_two{
+        font-size: 20px !important;
+    }
+    .text_three{
+        font-size: 14px;
+    }
   }
   @media (min-width: 992px) { 
      .hero_text{
