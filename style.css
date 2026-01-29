@@ -109,10 +109,18 @@
     color: #1E1E1E;
 }
 .productive{
+    background-color: #F7F7F7;
     padding-top: 70px;
     padding-bottom: 70px;
 }
-
+.button-box{
+    flex-direction: row;
+    justify-content: center;
+   width: 347px !important;
+    height: 57px;
+    border-radius: 44px;
+    background-color: aliceblue;
+}
 
 @media (max-width: 576px) { 
     .hero_text{
