@@ -104,8 +104,14 @@
     text-decoration: none;
     color: #E58411;
 }
-
-
+.txt1{
+    font-size:42px;
+    color: #1E1E1E;
+}
+.productive{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
 
 
 @media (max-width: 576px) { 
