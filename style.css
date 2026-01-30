@@ -114,9 +114,10 @@
     padding-bottom: 70px;
 }
 .button-box{
-    flex-direction: row;
-    justify-content: center;
-   width: 347px !important;
+    
+     width: 347px;
+  margin: 0 auto;
+ 
     height: 57px;
     border-radius: 44px;
     background-color: aliceblue;
