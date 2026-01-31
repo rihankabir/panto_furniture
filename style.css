@@ -122,6 +122,46 @@
     border-radius: 44px;
     background-color: aliceblue;
 }
+/* Tabs box */
+.button-box {
+  width: 347px;
+  margin: 0 auto;
+}
+
+/* Active tab */
+.tab-btn.active {
+  background: white !important;
+  color: black !important;
+}
+
+/* Search */
+#searchInput::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+.search-icon {
+  background: orange;
+  color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Product card */
+.card {
+  background: #111;
+  border: none;
+}
+
+.card img {
+  height: 160px;
+  object-fit: cover;
+}
+
 
 @media (max-width: 576px) { 
     .hero_text{
