@@ -153,12 +153,17 @@
 
 /* Product card */
 .card {
+    width:269px;
+    height: 492px;
   background: #111;
   border: none;
+  border-radius: 20px;
 }
-
+.txt9{
+    font-size: 21px;
+}
 .card img {
-  height: 160px;
+  height: auto;
   object-fit: cover;
 }
 
