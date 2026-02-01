@@ -39,7 +39,7 @@ function renderProducts(list) {
 
     chunk.forEach(p => {
       slide += `
-        <div class="col-6 col-md-3 col-lg-3">
+        <div class="col-12 col-md-6 col-lg-3">
           <div class="card item text-start">
             <img src="images/${p.image}" class="card-img-top context3">
             <div class="card-body mt-1">
