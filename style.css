@@ -119,17 +119,27 @@
   margin: 0 auto;
  
     height: 57px;
+    
     border-radius: 44px;
-    background-color: aliceblue;
+  background-color: #ecebeb;
 }
 /* Tabs box */
 .button-box {
+    
   width: 347px;
+  border-radius: 44px;
   margin: 0 auto;
 }
-
+.tab-btn{
+    border: none !important;
+    border-radius: 32px !important;
+    background: rgb(239, 234, 234) !important;
+    color: black !important;
+    
+}
 /* Active tab */
 .tab-btn.active {
+    border-radius: 32px;
   background: white !important;
   color: black !important;
 }
@@ -162,11 +172,25 @@
 .txt9{
     font-size: 21px;
 }
-.card img {
-  height: auto;
-  object-fit: cover;
+.context3{
+    height: 256px;
 }
-
+.card img {
+  
+    background-position: center; /* center image */
+  background-repeat: no-repeat;
+  object-fit: cover;
+  
+}
+.context{
+    width: 225px;
+    height: 48px;
+}
+.context1{
+    font-family: inter;
+    font-size: 21px;
+    color: #0D1B39;
+}
 
 @media (max-width: 576px) { 
     .hero_text{
