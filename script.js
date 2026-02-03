@@ -43,7 +43,8 @@ const cartCountEl = document.getElementById("cartCount");
 ======================= */
 function getItemsPerSlide() {
   if (window.innerWidth < 576) return 1;   // mobile
-  if (window.innerWidth < 992) return 2;   // tablet
+  if (window.innerWidth < 992) return 2;
+  if (window.innerWidth < 1100) return 3;   // tablet
   return 4;                               // desktop
 }
 
@@ -60,12 +61,12 @@ function renderProducts(list) {
 
     let slideHTML = `
       <div class="carousel-item ${i === 0 ? "active" : ""}">
-        <div class="row g-3 justify-content-center">
+        <div class="row g-4 justify-content-center align-items-center">
     `;
 
     chunk.forEach(p => {
       slideHTML += `
-        <div class="col-12 col-sm-6 col-lg-3">
+        <div class=" col-xl-3 col-12 col-sm-6 col-md-5 col-lg-3">
           <div class="card item text-start h-100">
             <img src="images/${p.image}" class="card-img-top context3" alt="${p.name}">
 
