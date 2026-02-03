@@ -227,6 +227,9 @@
     .text_three{
         font-size: 14px;
     }
+    .button-box {
+    width: 292px;
+}
   }
   @media (min-width: 992px) { 
      .hero_text{
@@ -254,4 +257,10 @@
         font-size: 22px;
         top: 372px;
     }
+    .carousel-control-prev {
+    left: -70px !important;
+}
+.carousel-control-next {
+    right: -39px !important;
+}
    }
