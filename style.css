@@ -205,6 +205,9 @@
     .input-group{
         top:-28px;
     }
+    .button-box {
+        width: 277px;
+    }
  }
  @media (min-width: 768px) { 
     .hero_text{
