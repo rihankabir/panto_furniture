@@ -204,6 +204,19 @@
 .fur3{
     top:60px
 }
+.txp1{
+    font-size: 18px;
+    color: #E58411;
+}
+.txp2{
+    color: #1E1E1E;
+    font-size: 42px;
+}
+.txp3{
+    font-size: 18px;
+    color: #1E1E1E;
+}
+
 @media (max-width: 576px) { 
     .hero_text{
         font-size:27px;
