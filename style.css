@@ -193,15 +193,17 @@
     color: #0D1B39;
 }
 .down{
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 120px;
+    padding-bottom: 150px;
     background-color: white;
 }
-.sub_image img{
-    width: 629px;
-    height: 445px;
+.rat-img{
+    top:100px;
+    left: 180px;
 }
-
+.fur3{
+    top:60px
+}
 @media (max-width: 576px) { 
     .hero_text{
         font-size:27px;
