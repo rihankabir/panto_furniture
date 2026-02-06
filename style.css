@@ -192,6 +192,11 @@
     font-size: 21px;
     color: #0D1B39;
 }
+.down{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: white;
+}
 
 @media (max-width: 576px) { 
     .hero_text{
