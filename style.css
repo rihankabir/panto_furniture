@@ -197,6 +197,10 @@
     padding-bottom: 70px;
     background-color: white;
 }
+.sub_image img{
+    width: 629px;
+    height: 445px;
+}
 
 @media (max-width: 576px) { 
     .hero_text{
