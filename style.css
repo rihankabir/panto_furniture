@@ -270,6 +270,15 @@
      .input-group{
         top:7px;
     }
+    .rat-img {
+    width: 53%;
+    top: 100px;
+    left: 180px;
+}
+.fur3 {
+    width: 70%;
+    top: 60px;
+}
    }
  
    @media (min-width: 1400px) { 
