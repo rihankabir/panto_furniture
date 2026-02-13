@@ -233,6 +233,15 @@
     .button-box {
         width: 277px;
     }
+    .fur3 {
+    width: 102%;
+    top: 60px;
+}
+.rat-img {
+    width: 52%;
+    top: 100px;
+    left: 180px;
+}
  }
  @media (min-width: 768px) { 
     .hero_text{
