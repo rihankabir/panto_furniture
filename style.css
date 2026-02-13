@@ -217,6 +217,7 @@
     color: #1E1E1E;
 }
 .furniture{
+    
     padding-top:80px;
     padding-bottom:80px;
 }
@@ -242,6 +243,18 @@
 }
 .box1{
     width: 556px;
+}
+.renv{
+    top:250px;
+}
+.reno{
+    top: 100px;
+    left: 380px;
+}
+.renu{
+    
+    top:100px;
+    left: 300px;
 }
 
 @media (max-width: 576px) { 
@@ -350,6 +363,22 @@
    }
  
    @media (min-width: 1400px) { 
+    .renu{
+    
+    top:100px;
+    left: 366px;
+}
+.reno {
+    top: 39px;
+    left: 537px;
+}
+.renv {
+    top: 250px;
+    left: 83px;
+}
+.rev{
+    left: 84px;
+}
     .txt13 {
     font-family: "Montserrat", sans-serif;
     font-size: 42px;
