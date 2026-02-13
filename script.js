@@ -61,12 +61,12 @@ function renderProducts(list) {
 
     let slideHTML = `
       <div class="carousel-item ${i === 0 ? "active" : ""}">
-        <div class="row g-4 align-items-center">
+        <div class="row g-5 justify-content-center align-items-center">
     `;
 
     chunk.forEach(p => {
       slideHTML += `
-        <div class=" col-xl-3 col-12 col-sm-6 col-md-5 col-lg-3">
+        <div class="col-xl-3 col-12 col-sm-6 col-md-5 col-lg-3">
           <div class="card item text-start h-100">
             <img src="images/${p.image}" class="card-img-top context3" alt="${p.name}">
 
