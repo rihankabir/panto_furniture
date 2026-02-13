@@ -262,13 +262,26 @@
 
 
 @media (max-width: 576px) { 
-    .renv{
-        width: 93%;
+    .rev{
+        width: 50%;
     }
-    .renu {
-    top: 132px;
-    left: 200px;
+    .comfy{
+        margin-bottom: 60px;
+    }
+    .renv{
+        top: 155px;
+        width: 50%;
+    }
+    .reno {
+        width: 60%;
+    top: 56px;
+    left: 136px;
 }
+   .renu {
+        width: 52%;
+        top: 177px;
+        left: 172px;
+    }
     .box1 {
     width: 100%;
 }
