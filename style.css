@@ -218,7 +218,7 @@
 }
 .furniture{
     
-    padding-top:80px;
+    padding-top:100px;
     padding-bottom:80px;
 }
 .txt12{
@@ -256,7 +256,13 @@
     top:100px;
     left: 300px;
 }
-
+.comfy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    margin-top: 100px !important;
+    
+}
 
 
 @media (max-width: 576px) { 
@@ -340,6 +346,7 @@
 }
   }
   @media (min-width: 992px) { 
+   
      .hero_text{
         margin-top:15px;
         font-size: 80px;
@@ -367,7 +374,7 @@
    @media (min-width: 1400px) { 
     .renu{
     
-    top:100px;
+    top:130px;
     left: 366px;
 }
 .reno {
